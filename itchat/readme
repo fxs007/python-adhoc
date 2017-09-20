@@ -1,0 +1,12 @@
+login procedure diagram
+https://itchat.readthedocs.io/zh/latest/tutorial/tutorial1/
+
+According to API, itchat is a python wrapper to wechat web interface
+API: https://itchat.readthedocs.io/zh/latest/api/
+
+env PYTHONPATH=/usr/local/lib/python2.7/site-packages ipython test.py
+
+env PYTHONPATH=/usr/local/lib/python2.7/site-packages ipython
+import itchat
+itchat.auto_login()
+itchat.send(u'message1', 'filehelper')
